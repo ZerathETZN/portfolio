@@ -2,41 +2,41 @@ import { ExternalLink } from "lucide-react"
 import Link from "next/link"
 
 const experiences = [
+  // {
+  //   period: "2023 — Present",
+  //   title: "Senior ML Engineer",
+  //   company: "Neural Labs",
+  //   companyUrl: "https://example.com",
+  //   description:
+  //     "Leading the development of production-grade LLM systems. Architecting RAG pipelines and fine-tuning strategies for enterprise applications. Reduced inference latency by 40% through model optimization.",
+  //   skills: ["PyTorch", "LangChain", "CUDA", "AWS", "Kubernetes"],
+  // },
+  // {
+  //   period: "2021 — 2023",
+  //   title: "Machine Learning Engineer",
+  //   company: "DataFlow AI",
+  //   companyUrl: "https://example.com",
+  //   description:
+  //     "Built computer vision models for autonomous systems achieving 98% accuracy. Developed MLOps infrastructure handling 1M+ daily predictions. Implemented real-time object detection systems.",
+  //   skills: ["TensorFlow", "OpenCV", "MLflow", "Docker", "GCP"],
+  // },
+  // {
+  //   period: "2019 — 2021",
+  //   title: "Data Scientist",
+  //   company: "TechCorp",
+  //   companyUrl: "https://example.com",
+  //   description:
+  //     "Developed recommendation systems increasing user engagement by 35%. Created NLP pipelines for sentiment analysis across millions of documents. Built automated feature engineering pipelines.",
+  //   skills: ["Python", "scikit-learn", "Spark", "SQL", "Airflow"],
+  // },
   {
-    period: "2023 — Present",
-    title: "Senior ML Engineer",
-    company: "Neural Labs",
-    companyUrl: "https://example.com",
+    period: "2025 — 2025",
+    title: "Data Analyst Intern",
+    company: "Kidocode",
+    companyUrl: "https://www.kidocode.com/",
     description:
-      "Leading the development of production-grade LLM systems. Architecting RAG pipelines and fine-tuning strategies for enterprise applications. Reduced inference latency by 40% through model optimization.",
-    skills: ["PyTorch", "LangChain", "CUDA", "AWS", "Kubernetes"],
-  },
-  {
-    period: "2021 — 2023",
-    title: "Machine Learning Engineer",
-    company: "DataFlow AI",
-    companyUrl: "https://example.com",
-    description:
-      "Built computer vision models for autonomous systems achieving 98% accuracy. Developed MLOps infrastructure handling 1M+ daily predictions. Implemented real-time object detection systems.",
-    skills: ["TensorFlow", "OpenCV", "MLflow", "Docker", "GCP"],
-  },
-  {
-    period: "2019 — 2021",
-    title: "Data Scientist",
-    company: "TechCorp",
-    companyUrl: "https://example.com",
-    description:
-      "Developed recommendation systems increasing user engagement by 35%. Created NLP pipelines for sentiment analysis across millions of documents. Built automated feature engineering pipelines.",
-    skills: ["Python", "scikit-learn", "Spark", "SQL", "Airflow"],
-  },
-  {
-    period: "2018 — 2019",
-    title: "ML Research Intern",
-    company: "AI Research Institute",
-    companyUrl: "https://example.com",
-    description:
-      "Conducted research on attention mechanisms in transformer architectures. Co-authored two papers on efficient training methods. Contributed to open-source deep learning frameworks.",
-    skills: ["PyTorch", "JAX", "LaTeX", "Research", "Experiments"],
+      "Learnt the fundamentals of data analytics. Learnt how to use Pandas and Seaborn to visualize data",
+    skills: ["Docker","Seaborn", "Pandas", "Numpy","Crawl4AI"],
   },
 ]
 

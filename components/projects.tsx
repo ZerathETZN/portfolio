@@ -2,18 +2,18 @@ import { ExternalLink, Github, Brain, Eye, MessageSquare, Workflow } from "lucid
 import Link from "next/link"
 
 const projects = [
+  // {
+  //   title: "LLM Agent Framework",
+  //   description:
+  //     "An open-source framework for building autonomous AI agents with tool use, memory, and multi-step reasoning capabilities. Features modular architecture and extensive plugin system.",
+  //   icon: <Brain className="size-5" />,
+  //   tags: ["Python", "LangChain", "OpenAI", "Vector DB"],
+  //   github: "https://github.com",
+  //   demo: "https://example.com",
+  //   featured: true,
+  // },
   {
-    title: "LLM Agent Framework",
-    description:
-      "An open-source framework for building autonomous AI agents with tool use, memory, and multi-step reasoning capabilities. Features modular architecture and extensive plugin system.",
-    icon: <Brain className="size-5" />,
-    tags: ["Python", "LangChain", "OpenAI", "Vector DB"],
-    github: "https://github.com",
-    demo: "https://example.com",
-    featured: true,
-  },
-  {
-    title: "Neural Vision API",
+    title: "Facial Expression Indicator API : Visage",
     description:
       "Production-ready computer vision API supporting object detection, segmentation, and image classification. Handles 100K+ requests daily with sub-100ms latency.",
     icon: <Eye className="size-5" />,
@@ -22,24 +22,24 @@ const projects = [
     demo: "https://example.com",
     featured: true,
   },
-  {
-    title: "Conversational AI Platform",
-    description:
-      "End-to-end platform for building and deploying conversational AI systems. Includes intent classification, entity extraction, and dialogue management.",
-    icon: <MessageSquare className="size-5" />,
-    tags: ["Transformers", "Rasa", "PostgreSQL", "Redis"],
-    github: "https://github.com",
-    featured: true,
-  },
-  {
-    title: "ML Pipeline Orchestrator",
-    description:
-      "Kubernetes-native ML pipeline orchestration tool for automating training, evaluation, and deployment workflows. Supports distributed training and auto-scaling.",
-    icon: <Workflow className="size-5" />,
-    tags: ["Kubernetes", "Argo", "MLflow", "Prometheus"],
-    github: "https://github.com",
-    featured: false,
-  },
+  // {
+  //   title: "Conversational AI Platform",
+  //   description:
+  //     "End-to-end platform for building and deploying conversational AI systems. Includes intent classification, entity extraction, and dialogue management.",
+  //   icon: <MessageSquare className="size-5" />,
+  //   tags: ["Transformers", "Rasa", "PostgreSQL", "Redis"],
+  //   github: "https://github.com",
+  //   featured: true,
+  // },
+  // {
+  //   title: "ML Pipeline Orchestrator",
+  //   description:
+  //     "Kubernetes-native ML pipeline orchestration tool for automating training, evaluation, and deployment workflows. Supports distributed training and auto-scaling.",
+  //   icon: <Workflow className="size-5" />,
+  //   tags: ["Kubernetes", "Argo", "MLflow", "Prometheus"],
+  //   github: "https://github.com",
+  //   featured: false,
+  // },
 ]
 
 export function Projects() {

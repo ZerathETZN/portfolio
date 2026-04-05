@@ -20,7 +20,7 @@ export function Hero() {
                 AI & Machine Learning Engineer
               </p>
               <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight text-balance">
-                Alex Chen
+                Ethan Tan Zheng Nan
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
                 Building intelligent systems that learn, adapt, and solve complex problems. 

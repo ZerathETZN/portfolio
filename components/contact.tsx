@@ -2,10 +2,9 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 import Link from "next/link"
 
 const socialLinks = [
-  { label: "Email", href: "mailto:hello@example.com", icon: Mail },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { label: "GitHub", href: "https://github.com", icon: Github },
-  { label: "Twitter", href: "https://twitter.com", icon: Twitter },
+  { label: "Email", href: "ethantanpc@gmail.com", icon: Mail },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/ethan-tan-b6b81a284/", icon: Linkedin },
+  { label: "GitHub", href: "https://github.com/ZerathETZN", icon: Github },
 ]
 
 export function Contact() {
@@ -52,7 +51,7 @@ export function Contact() {
 
         <footer className="mt-24 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Alex Chen. Built with Next.js and deployed on Vercel.
+            © {new Date().getFullYear()} Ethan Tan. Built with Next.js and deployed on Vercel.
           </p>
         </footer>
       </div>
