@@ -29,9 +29,9 @@ export function About() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-          <StatCard icon={<Brain className="size-5" />} label="Models Trained" value="50+" />
+          <StatCard icon={<Brain className="size-5" />} label="Models Trained" value="0" />
           <StatCard icon={<Cpu className="size-5" />} label="GPU Hours" value="10K+" />
-          <StatCard icon={<Network className="size-5" />} label="Papers Published" value="8" />
+          <StatCard icon={<Network className="size-5" />} label="Papers Published" value="0" />
           <StatCard icon={<Sparkles className="size-5" />} label="Accuracy Improvements" value="25%" />
         </div>
       </div>
